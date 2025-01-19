@@ -19,7 +19,7 @@ You develop the following strategy using insights from textual analysis: You ide
 Data used to perform the analysis and solve the problem are in `Data` folder in the current repository.
 
 ## Analysis
-The procedure for the analysis and algorithm evaluation is the following:
+The procedure for the analysis and algorithm evaluation are the following:
 1. Data cleaning: remove punctuation, remove numbers, remove stopwords, make lower case, only consider terms with 3 to 20 letters, and delete excess white spaces
 2. Transforming the data into bigrams
 3. Making a document term matrix only including tokens (bi-grams) that appear in more than 5 but less than 100 documents
